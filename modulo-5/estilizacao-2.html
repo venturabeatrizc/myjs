@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="witdh=devide-width, initial-scale=1.0">
+    <title>Portfolio Bia</title>
+    <link rel="stylesheet" href="estilizacao-2.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Olá, Sou a Beatriz Ventura</h2>
+            <p>Desenvolvedora Javascript, cursando EBAC</p>
+            <a href="#projects" class="btn">Veja meus Projetos :)</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre mim</h2>
+            <p>Sou uma desenvolvedora web com experiência em criar sites e aplicativos web modernos e responsivos. Tenho uma paixão por aprender novas tecnologias e melhorar continuamente minhas habilidades!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <img src="img/projeto1.png" alt="Projeto1">
+                <div class="project-info">
+                    <h3>Sistema de registro de nomes</h3>
+                    <p>Aplicação simples para armazenar nomes digitados pelo usuário. Feita com HTML, CSS e JavaScript, ideal para estudar manipulação de formulários e localStorage. É uma ótima forma de exercitar lógica básica e organização do código.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/projeto2.jpg" alt="Projeto2">
+                <div class="project-info">
+                    <h3>Aplicativo de previsão de tempo</h3>
+                    <p>Um aplicativo móvel que exibe a previsão do tempo para diferentes locais. Os usuários podem buscar por cidade ou usar a localização atual para obter previsões detalhadas, incluindo temperatura, umidade e condições climáticas</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/projeto3.png" alt="Projeto3">
+                <div class="Project-info">
+                    <h3>E-commerce</h3>
+                    <p>Desenvolvimento de uma loja virtual com carrinho de compras, filtros por categoria e página de produto. Projeto feito com PHP e JavaScript, simulando uma experiência real de compra. O maior desafio será estruturar o fluxo de compra de forma clara e funcional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#" mathod="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="email">Deixe uma mensagem: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Beatriz Ventura. Projeto Portfólio - Protótipo 1</p>
+        </div>
+    </footer>
+
+</body>
+</html>
