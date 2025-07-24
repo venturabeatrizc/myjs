@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JQuery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#cart">Carrinho</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Seja bem-vindo ao meu E-commerce com JavaScript!</h1>
+                <p>Encontre aqui o seu produto</p>
+                <button><a href="#products">Compre agora</a></button>
+            </section>
+
+            <section class="products" id="products">
+                <h2>Produtos em destaque</h2>
+                <div class="product-grid">
+                    <!-- Criação pelo JavaScript -->
+                </div>
+            </section>
+
+            <section class="cart" id="cart">
+                <h2>Carrinho de compras</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Aqui serão os itens do carrinho pelo JavaScript -->
+                    </tbody>
+                </table>
+                <p>Total: <span id="total">R$0,00</span></p>
+                <button id="checkout">Pagar</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2025 | Beatriz - E-Commerce 1</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
